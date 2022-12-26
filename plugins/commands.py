@@ -45,12 +45,12 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
-            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/aboutexinos')
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ​ ♚', callback_data='OWNER_INFO')
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
-            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
+            InlineKeyboardButton('⌬ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ ⌬', url='https://t.me/+62U_p0v6OwI1MTNl')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,12 +93,12 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
-            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/aboutexinos')
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ​ ♚', callback_data='OWNER_INFO')
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
-            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
+            InlineKeyboardButton('⌬ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ ⌬', url='https://t.me/+62U_p0v6OwI1MTNl')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

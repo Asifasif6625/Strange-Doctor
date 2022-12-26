@@ -48,13 +48,13 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/d8b82d0a1d20da5f0cf65.jpg https://telegra.ph/file/ac56302ae11da42519c1d.jpg https://telegra.ph/file/43c7e4d3c2e327bd9b02e.jpg https://telegra.ph/file/77283bdd7509ba368a43f.jpg https://telegra.ph/file/1157e9c4f1ab715996334.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/329bd4dae3fb88fa8aa30.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b66f3a65ce68e11e621cf.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/77283bdd7509ba368a43f.jpg https://telegra.ph/file/43c7e4d3c2e327bd9b02e.jpg https://telegra.ph/file/b011d4e54d903b6d5fcbb.jpg https://telegra.ph/file/f83d60eb55bc43b6f74a4.jpg https://telegra.ph/file/51b920ba5a62ab017b4d3.jpg https://telegra.ph/file/43c7e4d3c2e327bd9b02e.jpg https://telegra.ph/file/cb39353c0d6ab9180542a.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/329bd4dae3fb88fa8aa30.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2845c9c171ab0db9f8a18.jpg")
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/f75dc5a5f440e2ffe43e7.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/ede38b7090806dbbbde4c.mp4")
+MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/5589ea0076a2ce20b4486.mp4")
 
 
 
@@ -90,7 +90,7 @@ MAX_BTN = int(environ.get('MAX_BTN', "7"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/czdbotz_support")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/czdbotz")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+BVP4yf8HHEFmNmJl")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠 𝑇𝑜 𝐶𝑟𝑎𝑧𝑦 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟 💖')
+MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠💖')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'czdbotz_support')

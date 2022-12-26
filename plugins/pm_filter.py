@@ -584,7 +584,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
-            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ​ ♚', callback_data='owner_info')
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ​ ♚', callback_data='OWNER_INFO')
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
@@ -955,7 +955,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "owner_info":
             btn = [[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
+                    InlineKeyboardButton("ʙᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/AFxSU")
                   ]]
             await client.edit_message_media(

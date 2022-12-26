@@ -161,8 +161,7 @@ async def next_page(bot, query):
          [
              InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
              InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo')
          ]
     )
 
@@ -585,13 +584,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url='https://t.me/at3movies'),
-            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', url='https://t.me/aboutexinos')
+            InlineKeyboardButton('♚ ᴏᴡɴᴇʀ ♚', callback_data='owner_info')
             ],[      
             InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help'),
             InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
             InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ ⌬', url='https://t.me/czdbotz_support')
-        ]]         
+        ]]                  
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -611,9 +610,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tele'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='czdbots')    
+            InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook')    
         ], [
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')      
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='czdbots')   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(                     
@@ -623,7 +623,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "czdbots":
         buttons = [[
-             InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
+             InlineKeyboardButton('ғᴏɴᴛ', callback_data='font'),
              InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona'),
              InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun')
          ], [
@@ -633,9 +633,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
          ], [
              InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
              InlineKeyboardButton('ᴜʀʟsʜᴏʀᴛ', callback_data='urlshort'),
-             InlineKeyboardButton('ɴᴇxᴛ', callback_data='czdbotss')  
+             InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans')  
         ], [
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')         
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='czdbotss')       
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(                     
@@ -645,13 +646,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "czdbotss":
         buttons = [[
-             InlineKeyboardButton('ғᴏɴᴛ', callback_data='font'),
-             InlineKeyboardButton('ɢᴛʀᴀɴs', callback_data='gtrans'),
              InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb'),
+             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
+             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats')
         ],  [
              InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='czdbots'),
-             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy'),
-             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start')
+             InlineKeyboardButton('ʜᴏᴍᴇ​', callback_data='start'),
+             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(                     

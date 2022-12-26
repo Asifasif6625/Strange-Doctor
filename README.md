@@ -1,7 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Doctor-Strange!;Created+by+𝐂𝐫𝐚𝐳𝐲𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫ᠰ𝐓𝐆!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
 </p>
 <p align="center">
-  <img src="https://telegra.ph/file/8f6deb9d7fa796289a19b.jpg" alt="Strange">
+  <img src="https://telegra.ph/file/77283bdd7509ba368a43f.jpg" alt="Strange">
 </p>
 <h1 align="center">
   <b>Doctor-Strange</b>
